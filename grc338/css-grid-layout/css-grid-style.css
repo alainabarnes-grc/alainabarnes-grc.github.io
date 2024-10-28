@@ -1,0 +1,107 @@
+/*CSS DOCUMENT*/
+
+html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit;} /*My edited version of the Eric Meyer’s reset tool. You may want to include this in all of your future CSS files. */
+
+img {
+    width: 100%; /*Please leave this line.*/
+     display: grid;
+}
+/* BACKGROUND */
+body {
+	background-color: rgb(200, 200, 200);
+	color: rgb(30,30,30);
+	line-height: 160%; 	/* A little extra leading. */
+}
+/*GREY BACKGROUND*/
+div.container {
+    max-width: 75em;
+    margin: auto;
+    background-color:rgb(255,255,255);
+}
+/*TOP HEADER*/
+header {
+    background-color: rgb(230, 134, 39);
+	color: rgb(240,240,240); /* Same as body background. */
+	padding: 1.5em 1.5em 1.5em 1.5em; /* You want three values. */
+    line-height: 200%;
+    h1 {
+        font-family: Sutro, serif;  
+        font-weight: 700;  
+        font-style: normal;
+        font-size: 2em;
+        padding-bottom: 0.25em
+    }
+    h2 {
+        font-family: Sutro, serif;  
+        font-weight: 300;  
+        font-style: normal;
+        font-size: 1.5em;
+        opacity: 70%;
+    }
+}
+/*IMAGE AND DESCRIPTION GRID*/
+figure {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+/*DESCRIPTION*/
+figcaption {
+    font-family: poppins, sans-serif;  
+    font-weight: 400;  
+    font-style: italic; 
+    font-size: 1.15em;
+    padding: 2em 2.5em 3em 3em;
+}
+/*HEADINGS*/
+h3 {
+	
+	color: rgb(230, 134, 39); /* Same as body background. */
+	font-size: 1.25em;
+	padding: 1em 1em 0em 0em; /* You want three values. */
+    margin:0 1.5em; 
+    font-family: Sutro, serif;  
+    font-weight: 600;  
+    font-style: normal;
+	text-transform: uppercase;
+    letter-spacing: 0.1em;
+    border-top: 3px solid rgb(230, 134, 39);
+}
+/*INGREDIENT AND DIRECTIONS GRID*/
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 3em;
+    padding: 3em 2em 2em 2em;
+}
+/*INGREDIENTS*/
+ul {
+	margin: 1em 1em 1em;
+    padding: 0em;
+    font-family: poppins, sans-serif;  
+    font-weight: 400;  
+    font-style: normal;
+}
+li { 
+	margin: 1em 1em;
+    font-family: poppins, sans-serif;  
+    font-weight: 400;  
+    font-style: normal;
+}
+/*DIRECTIONS*/
+ol {
+    margin: 1em 1em 1em;
+    padding-bottom: 1em;
+    font-family: poppins, sans-serif;  
+    font-weight: 400;  
+    font-style: normal;
+}
+/*FOOTER LINK*/
+footer {
+    background-color: rgb(230, 134, 39); /* Same as body background. */
+	padding: 1em 1em 1em 1em;
+    color: rgb(240,240,240);
+    font-size: 1em;
+    font-family: poppins, sans-serif;  
+    font-weight: 400;  
+    font-style: normal;
+}
